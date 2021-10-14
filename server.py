@@ -48,4 +48,5 @@ def search():
 			return jsonify(pagelist)	
 
 if __name__ == '__main__':
-    app.run(debug = True, host='0.0.0.0', port=5000)
+    from waitress import serve
+    app.run(debug = True, host='127.0.0.1', port=8000)
