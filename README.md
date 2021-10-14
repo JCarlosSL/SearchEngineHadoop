@@ -1,7 +1,9 @@
 # SearchEngineHadoop
+
 Search engine in hadoop with PageRank and Inverted Index in Python 
 
 ##Local
+
   $ git clone https://github.com/JCarlosSL/SearchEngineHadoop.git
 
 ## Requirements
